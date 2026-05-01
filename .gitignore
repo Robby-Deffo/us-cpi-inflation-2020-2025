@@ -1,0 +1,75 @@
+# ──────────────────────────────────────────────
+#  .gitignore — us-cpi-inflation-2020-2025
+#  Python · Jupyter · VS Code · Windows/macOS
+# ──────────────────────────────────────────────
+
+
+# ── RAW DATA ──────────────────────────────────
+# BLS source files — large, reproducible from bls.gov
+data/raw/
+
+
+# ── PYTHON ────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+# ── JUPYTER ───────────────────────────────────
+# Checkpoint files created when you save a notebook
+.ipynb_checkpoints/
+
+# Temporary notebook output (nbconvert artifacts)
+*.nbconvert.ipynb
+
+
+# ── VS CODE ───────────────────────────────────
+.vscode/
+
+# Exception: uncomment below if you want to share
+# workspace settings or recommended extensions with
+# collaborators (common in team projects)
+# !.vscode/settings.json
+# !.vscode/extensions.json
+
+
+# ── OS FILES ──────────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+
+# ── MISC ──────────────────────────────────────
+# Any local notes or scratch files
+scratch/
+*.log
