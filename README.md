@@ -48,7 +48,7 @@ us-cpi-inflation-2020-2025/
 │   ├── combined_cpi_comparison_chart.png
 │   └── cpi_correlation_heatmap.png
 ├── docs/
-│   ├── insights.md                    # Full academic-style findings & implications
+│   ├── insights.md                    # findings & implications
 │   ├── project-notes.md               # Detailed methodology, BLS series IDs, output index
 │   └── data-dictionary.md             # Column definitions, derivation formula, source metadata
 ├── requirements.txt
